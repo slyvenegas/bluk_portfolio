@@ -4115,6 +4115,14 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
 /* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
 /* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
 
+.div-icons-sidebar-cus {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  justify-content: center;
+  flex-direction: row;
+  margin-right: 10px;
+}
+
 
 .custom-hero-customers {
   display: flex;
@@ -5049,6 +5057,20 @@ p.text-contact2-last {
 /* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
 /* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
 
+.div-icons-sidebar-cus {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  justify-content: flex-end;
+  flex-direction: row;
+  margin-right: 60px;
+}
+
+
+.link-side {
+  max-width: 35%;
+  height: auto;
+  margin: 0 -24px;
+}
 
 .custom-hero-customers {
   display: flex;
@@ -5169,7 +5191,7 @@ p.text-contact2-last {
   /* background-color: #60e214; */
   z-index: 1000;
   padding-right: 10px;
-  border-right: 1.5px solid #656565;
+  border-right: 1.5px solid #b8b7b7;
 }
 
 .custom-sidebar {
