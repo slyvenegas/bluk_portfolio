@@ -5062,14 +5062,14 @@ p.text-contact2-last {
   display: flex !important;
   justify-content: flex-end;
   flex-direction: row;
-  margin-right: 60px;
+  margin-right: 46px;
 }
 
 
 .link-side {
-  max-width: 35%;
+  max-width: 100%;
   height: auto;
-  margin: 0 -24px;
+  margin: 0 -52px;
 }
 
 .custom-hero-customers {
@@ -5080,6 +5080,7 @@ p.text-contact2-last {
   padding-top: 20px;
   text-align: center;
   margin-top: 43%;
+  /* background-color: blue; */
 }
 
 /* Estilos para el contenedor del título */
@@ -5164,6 +5165,7 @@ p.text-contact2-last {
   padding-right: 15px;
   padding-left: 15px;
   margin-left: 25%;
+  /* background-color: coral; */
 }
 
 p.text-contact2 {
