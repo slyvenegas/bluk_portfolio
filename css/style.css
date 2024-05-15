@@ -5122,9 +5122,9 @@ p.text-contact2-last {
   margin-left: 1rem;
 }
 
-/* .contact-info {
+.contact-info {
   background-color: aqua;
-} */
+}
 
 @media (min-width: 768px) {
 
@@ -5163,16 +5163,7 @@ p.text-contact2-last {
     font-size: 0.70em !important;
     color: #0000006e !important;
   }
-
-
-
-
-
-
 }
-
-
-
 
 .col-custom-hero {
   position: relative;
