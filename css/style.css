@@ -199,7 +199,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 @media (min-width: 992px) {
   .divider-index {
     height: 93%;
-    width: 1.5px;
+    width: 4.5px;
   }
 }
 
