@@ -2072,7 +2072,7 @@ body {
   font-weight: 400;
   font-style: normal;
   line-height: 1.5;
-  font-size: 13px;
+  font-size: 11px;
   color: #515151;
    }
   body:before {
@@ -3647,7 +3647,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
   .links a {
     color: #000000; /* Color del texto de los enlaces */
-    margin-right: 10px;
+    margin-right: 0px;
     margin-bottom: 5px;
 
   }
@@ -4730,9 +4730,9 @@ p.text-contact2-last {
 }
 
 .img-sidebar-work {
-  max-width: 35%;
+  max-width: 25%;
   height: auto;
-  margin: 0 -24px;
+  margin: 0 -30px;
 }
 
 /* Estilo adicional para que la imagen ocupe todo el ancho sin espaciado horizontal */
