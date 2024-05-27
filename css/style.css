@@ -185,20 +185,20 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 /* DIVIDER INDEX */
 .divider-index {
-  height: 83%;
-  width: 7px;
+  height: 53%;
+  width:4px;
 }
 
 @media (min-width: 540px) {
   .divider-index {
-    height:86%;
+    height: 53%;
     width: 5px;
   }
 }
 
 @media (min-width: 992px) {
   .divider-index {
-    height: 93%;
+    height: 53%;
     width: 4.5px;
   }
 }
