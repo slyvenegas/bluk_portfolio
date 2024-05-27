@@ -2065,6 +2065,7 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   overflow-x: hidden; /* Oculta el desbordamiento horizontal */
   font-family: "Raleway", sans-serif;
@@ -4730,7 +4731,7 @@ p.text-contact2-last {
 }
 
 .img-sidebar-work {
-  max-width: 25%;
+  max-width: 23%;
   height: auto;
   margin: 0 -30px;
 }
@@ -5058,19 +5059,6 @@ p.text-contact2-last {
 
 }
 /* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
 
 .div-icons-sidebar-cus {
   display: -ms-flexbox !important;
@@ -5084,7 +5072,7 @@ p.text-contact2-last {
 .link-side {
   max-width: 100%;
   height: auto;
-  margin: 0 -36px;
+  margin: 0 -55px;
 }
 
 .custom-hero-customers {
@@ -5199,7 +5187,7 @@ p.text-contact2-last {
   /* background-color: #60e214; */
   z-index: 1000;
   padding-right: 10px;
-  border-right: 1.5px solid #b8b7b7;
+  border-right: 1.5px solid #f0f0f0;
 }
 
 .custom-sidebar {
@@ -5214,6 +5202,6 @@ p.text-contact2-last {
   height: auto;
   display: flex;
   margin: 0;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
 }
 
