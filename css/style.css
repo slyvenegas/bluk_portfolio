@@ -4283,6 +4283,7 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
     margin: 10px 0 0 0 !important;
     padding: 0 !important;
     font-size: 0.6rem !important;
+    color: #b9aeae;
   }
   .sidebar {
     width: 10% !important;
@@ -4298,6 +4299,22 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
     position: absolute !important;
     top: 11.9% !important;
   }
+
+  p.text-contact2 {
+    font-size: 1rem !important;
+    margin-bottom: 0;
+    text-align: left;
+    margin-left: 10%;
+    color: #b9aeae !important;
+}
+
+p.text-contact2-last {
+  font-size: 1rem !important;
+  color: #b9aeae !important;
+  margin-bottom: 6%;
+  text-align: left;
+  margin-left: 10%;
+}
 
 
 
@@ -4674,6 +4691,13 @@ p.text-contact2-last {
   .div-custom-merch {
     /* background-color: #c5e315; */
     margin-top: 9.5%;
+ }
+
+ .img-sidebar-customers {
+  max-width: 23% !important;
+  height: auto !important;
+  margin: 0 -11px !important;
+  width: 15%;
 }
 
 
@@ -4943,6 +4967,7 @@ p.text-contact2-last {
   text-align: right;
   display: block;
   font-family: 'queensides';
+
 }
 
 .div-custom-merch {
@@ -5195,6 +5220,19 @@ p.text-contact2-last {
   margin-bottom: 6%;
   text-align: left;
   margin-left: 4% !important;
+}
+
+.links a.align-right {
+  text-align: right;
+  display: block;
+  font-family: 'queensides';
+  font-size: 1rem;
+}
+
+.icons-sidebar-customers {
+  /* background-color: rgb(16, 207, 175) !important; */
+  margin-left: -44%;
+  max-width: 56%;
 }
 
 }
