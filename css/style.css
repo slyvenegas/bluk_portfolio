@@ -4709,6 +4709,7 @@ p.text-contact2-last {
   border-right: 1.5px solid #b7b3b3;
   font-family: 'queensides' !important;
 }
+
 /* sidebar-customers */
 .sidebar-customers {
   /* top: 50%; */
@@ -4742,6 +4743,12 @@ p.text-contact2-last {
   max-width: 56%;
 }
 
+.icons-sidebar-customers {
+  /* background-color: rgb(16, 207, 175)  !important; */
+  margin-left: -40%;
+  max-width: 56%;
+}
+
 .icons-sidebar-work-va {
   /* background-color: rgb(16, 207, 175)  !important; */
   margin-left: -40%;
@@ -4754,6 +4761,12 @@ p.text-contact2-last {
   max-width: 23%;
   height: auto;
   margin: 0 -31px;
+}
+
+.img-sidebar-customers {
+  max-width: 23%;
+  height: auto;
+  margin: 0 -11px;
 }
 
 /* Estilo adicional para que la imagen ocupe todo el ancho sin espaciado horizontal */
