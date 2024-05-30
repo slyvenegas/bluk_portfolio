@@ -5171,7 +5171,7 @@ p.text-contact2-last {
 p.text-contact2 {
   font-size: 0.7rem; /* Tamaño de fuente para móviles */
   color: #676565;
-  margin-bottom: 0;
+  margin-bottom: 0%;
   text-align: left;
   margin-left: 4% !important;
 }
@@ -5188,6 +5188,60 @@ p.text-contact2-last {
 
 
 @media (min-width: 992px) {
+
+  .sidebar-customers {
+    /* top: 50%; */
+    left: 0;
+    width: 14%;
+    height: 100%;
+    overflow-y: auto;
+    /* background-color: #e2db14; */
+    z-index: 1000;
+    padding-right: 20px;
+    border-right: 1px solid #b9aeae;
+    font-family: 'queensides' !important;
+}
+
+.custom-sidebar-customers {
+  text-align: right;
+  position: fixed;
+  top: 6%;
+}
+
+.custom-hero-customers {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: auto;
+  padding-top: 20px;
+  text-align: center;
+  margin-top: 6.5% !important;
+  /* background-color: blue; */
+}
+
+p.text-contact2 {
+  font-size: 0.7rem; /* Tamaño de fuente para móviles */
+  color: #676565;
+  margin-bottom: 10%;
+  text-align: left;
+  margin-left: 10% !important;
+}
+
+p.text-contact2-last {
+  font-size: 0.7rem; /* Tamaño de fuente para móviles */
+  color: #676565;
+  margin-bottom: 10%;
+  text-align: left;
+  margin-left: 10% !important;
+}
+
+
+
+
+
+
+
+
   .logo-grid {
     grid-template-columns: repeat(6, 1fr) !important; /* 6 columnas en pantallas grandes */
     grid-template-rows: repeat(3, auto) !important; /* 3 filas en pantallas grandes */
@@ -5216,7 +5270,7 @@ p.text-contact2-last {
   .customer-text {
     margin: 10px 0 0 0 !important;
     padding: 0 !important;
-    font-size: 0.70em !important;
+    font-size: 0.7rem !important;
     color: #0000006e !important;
   }
 }
