@@ -5244,7 +5244,7 @@ p.text-contact2-last {
     /* top: 50%; */
     left: 0;
     width: 14%;
-    height: 100%;
+    height: 92%;
     overflow-y: auto;
     /* background-color: #e2db14; */
     z-index: 1000;
@@ -5288,11 +5288,6 @@ p.text-contact2-last {
 
 
 
-
-
-
-
-
   .logo-grid {
     grid-template-columns: repeat(6, 1fr) !important; /* 6 columnas en pantallas grandes */
     grid-template-rows: repeat(3, auto) !important; /* 3 filas en pantallas grandes */
@@ -5314,10 +5309,16 @@ p.text-contact2-last {
 
   .contact-info {
     /* background-color: aqua !important; */
-    margin-bottom: -83px !important;
-    margin-top: 46px !important;
+    margin-bottom: -11px !important;
+    margin-top: -7% !important;
     margin-left: -50px !important;
   }
+
+ .va-icon-custom {
+  width: 77%;
+
+ }
+
   .customer-text {
     margin: 10px 0 0 0 !important;
     padding: 0 !important;
@@ -5341,6 +5342,7 @@ p.text-contact2 {
   margin-bottom: 0;
   text-align: left;
   margin-left: 10%;
+  color: #b9aeae !important;
 }
 
 p.text-contact2-last {
@@ -5349,6 +5351,7 @@ p.text-contact2-last {
   margin-bottom: 6%;
   text-align: left;
   margin-left: 10%;
+  color: #b9aeae !important;
 }
 
 .sidebar {
