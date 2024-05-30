@@ -4753,7 +4753,7 @@ p.text-contact2-last {
 .img-sidebar-work {
   max-width: 23%;
   height: auto;
-  margin: 0 -30px;
+  margin: 0 -36px;
 }
 
 /* Estilo adicional para que la imagen ocupe todo el ancho sin espaciado horizontal */
@@ -5140,10 +5140,36 @@ p.text-contact2-last {
   background-color: aqua;
 } */
 
-@media (min-width: 768px) {
+@media (min-width: 540px) {
 
+  .custom-hero-customers {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: auto;
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 24%;
+    /* background-color: blue; */
+}
+
+
+.sidebar-customers {
+  /* top: 50%; */
+  left: 0;
+  width: 33%;
+  height: 100%;
+  overflow-y: auto;
+  /* background-color: #e2db14; */
+  z-index: 1000;
+  padding-right: 20px;
+  border-right: 1px solid #b7b3b3;
+  font-family: 'queensides' !important;
 
 }
+
+}
+
 
 @media (min-width: 992px) {
   .logo-grid {
@@ -5199,7 +5225,7 @@ p.text-contact2 {
 p.text-contact2-last {
   font-size: 0.7rem; /* Tamaño de fuente para móviles */
   color: #676565;
-  margin-bottom: 15%;
+  margin-bottom: 6%;
   text-align: left;
   margin-left: 10%;
 }
