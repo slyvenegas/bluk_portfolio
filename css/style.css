@@ -4282,7 +4282,7 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
   .customer-text {
     margin: 10px 0 0 0 !important;
     padding: 0 !important;
-    font-size: 0.70em !important;
+    font-size: 0.6rem !important;
   }
   .sidebar {
     width: 10% !important;
@@ -5122,7 +5122,7 @@ p.text-contact2-last {
 .customer-text {
   margin: 10px 0 0 0;
   padding: 0;
-  font-size: 0.4em;
+  font-size: 0.6em;
 }
 
 /* Configuración inicial del grid para dispositivos móviles */
@@ -5149,7 +5149,7 @@ p.text-contact2-last {
     height: auto;
     padding-top: 20px;
     text-align: center;
-    margin-top: 24%;
+    margin-top: 23%;
     /* background-color: blue; */
 }
 
@@ -5166,6 +5166,22 @@ p.text-contact2-last {
   border-right: 1px solid #b7b3b3;
   font-family: 'queensides' !important;
 
+}
+
+p.text-contact2 {
+  font-size: 0.7rem; /* Tamaño de fuente para móviles */
+  color: #676565;
+  margin-bottom: 0;
+  text-align: left;
+  margin-left: 4% !important;
+}
+
+p.text-contact2-last {
+  font-size: 0.7rem; /* Tamaño de fuente para móviles */
+  color: #676565;
+  margin-bottom: 6%;
+  text-align: left;
+  margin-left: 4% !important;
 }
 
 }
