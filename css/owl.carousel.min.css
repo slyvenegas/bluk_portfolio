@@ -1,8 +1,4 @@
-/**
- * Owl Carousel v2.2.1
- * Copyright 2013-2017 David Deutsch
- * Licensed under  ()
- */
+
 .owl-carousel,
 .owl-carousel .owl-item {
   -webkit-tap-highlight-color: transparent;
@@ -93,7 +89,7 @@
   direction: rtl;
 }
 .owl-carousel.owl-rtl .owl-item {
-  float: right;
+  float: none;
 }
 .owl-carousel .animated {
   animation-duration: 1s;
