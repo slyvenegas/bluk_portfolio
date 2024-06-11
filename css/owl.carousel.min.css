@@ -38,7 +38,7 @@
 } */
 .owl-carousel .owl-item {
   min-height: 1px;
-  float: left;
+  float: inline-start;
   -webkit-backface-visibility: hidden;
   -webkit-touch-callout: none;
 }
