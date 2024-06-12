@@ -97,7 +97,7 @@ $(function(){
 				loop: true,
 				autoHeight: true,
 				margin: 0,
-				autoplay: true,
+				autoplay: false,
 				smartSpeed: 1000,
 				items: 1,
 				nav: true,
