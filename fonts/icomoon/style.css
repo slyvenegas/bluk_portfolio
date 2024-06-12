@@ -3639,7 +3639,7 @@
   content: "\e316";
 }
 .icon-keyboard_backspace:before {
-  content: "\°";
+  content: "\↼";
 }
 .icon-keyboard_capslock:before {
   content: "\e318";
