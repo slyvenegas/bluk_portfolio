@@ -4892,7 +4892,7 @@ p.text-contact2-last {
   .icons-sidebar-work {
     /* background-color: rgb(16, 207, 175)  !important; */
     margin-left: -40%;
-    max-width: 45%;
+    max-width: 41%;
   }
 
   .icons-sidebar-work-va {
@@ -5145,7 +5145,7 @@ p.text-contact2-last {
 
 /* Estilos para el contenedor del título */
 .customer-title-container {
-  text-align: center; /* Alinea el título al centro */
+  text-align: end; /* Alinea el título al centro */
   margin-bottom: 10px; /* Reduce el margen inferior para acercarlo al grid */
 }
 
@@ -5310,6 +5310,7 @@ p.text-contact2-last {
 
  .va-icon-custom {
   width: 77%;
+  z-index: 100;
 
  }
 
@@ -5326,7 +5327,7 @@ p.text-contact2-last {
   width: 77%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-left: 25%;
+  margin-left: 25% !important ;
   /* background-color: coral; */
 }
 
@@ -5376,26 +5377,19 @@ p.text-contact2-last {
 }
 
 
-
-.containerhome-tmp {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+.div-hit-custom {
+  width: 100%;
   height: auto;
+  background-color: #f6f6f6;
 }
 
-.volvemos-pronto-msj {
-  font-size: 0.9em;
-  text-transform: uppercase;
-  /* margin: 5px; */
-  margin-top: 10%;
-}
+/* .img-hit-custom {
+  width: 100%;
+  height: auto;
+} */
 
-#countdown {
-  font-size: 20px; /* Puedes ajustar a 24px si prefieres */
-  margin-top: 0;
+.price-text {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 0.7rem;
+  color: #949494;
 }
-
