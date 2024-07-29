@@ -4173,7 +4173,7 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
 
 @media (min-width: 768px) {
   .custom-hero-customers {
-    padding-top: 50px !important;
+    /* padding-top: 50px !important; */
     max-width: 1200px !important;
     margin: 0 auto !important;
   }
@@ -4189,13 +4189,7 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
     margin-left: 15% !important; /* Margen izquierdo */
   }
 
-  p.text-contact2 {
-    font-size: 0.9rem !important; /* Tamaño de fuente para pantallas medianas */
-  }
 
-  p.text-contact2-last {
-    font-size: 1rem !important; /* Tamaño de fuente para pantallas medianas */
-  }
 
   .sidebar {
     width: 10% !important;
@@ -4249,13 +4243,7 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
     margin-left: 20% !important; /* Margen izquierdo */
   }
 
-  p.text-contact2 {
-    font-size: 0.85rem !important; /* Tamaño de fuente para pantallas grandes */
-  }
 
-  p.text-contact2-last {
-    font-size: 0.85rem !important; /* Tamaño de fuente para pantallas grandes */
-  }
 
   .contact-info {
     /* background-color: aqua !important; */
@@ -4293,21 +4281,9 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
     top: 11.9% !important;
   }
 
-  p.text-contact2 {
-    font-size: 1rem !important;
-    margin-bottom: 0;
-    text-align: left;
-    margin-left: 10%;
-    color: #b9aeae !important;
-}
 
-p.text-contact2-last {
-  font-size: 1rem !important;
-  color: #b9aeae !important;
-  margin-bottom: 6%;
-  text-align: left;
-  margin-left: 10%;
-}
+
+
 
 
 
@@ -4322,21 +4298,7 @@ p.text-contact2-last {
   margin-left: 25%;
 }
 
-p.text-contact2 {
-  font-size: 0.7rem; /* Tamaño de fuente para móviles */
-  color: #676565;
-  margin-bottom: 0;
-  text-align: left;
-  margin-left: 10%;
-}
 
-p.text-contact2-last {
-  font-size: 0.7rem; /* Tamaño de fuente para móviles */
-  color: #676565;
-  margin-bottom: 15%;
-  text-align: left;
-  margin-left: 10%;
-}
 
 .sidebar {
   top: 0;
@@ -5200,21 +5162,7 @@ p.text-contact2-last {
 
 }
 
-p.text-contact2 {
-  font-size: 0.7rem; /* Tamaño de fuente para móviles */
-  color: #676565;
-  margin-bottom: 0%;
-  text-align: left;
-  margin-left: 4% !important;
-}
 
-p.text-contact2-last {
-  font-size: 0.7rem; /* Tamaño de fuente para móviles */
-  color: #676565;
-  margin-bottom: 6%;
-  text-align: left;
-  margin-left: 4% !important;
-}
 
 .links a.align-right {
   text-align: right;
@@ -5260,25 +5208,10 @@ p.text-contact2-last {
   height: auto;
   padding-top: 20px;
   text-align: center;
-  margin-top: 6.5% !important;
+  margin-top: 3.8% !important;
   /* background-color: blue; */
 }
 
-p.text-contact2 {
-  font-size: 0.7rem; /* Tamaño de fuente para móviles */
-  color: #676565;
-  margin-bottom: 10%;
-  text-align: left;
-  margin-left: 10% !important;
-}
-
-p.text-contact2-last {
-  font-size: 0.7rem; /* Tamaño de fuente para móviles */
-  color: #676565;
-  margin-bottom: 10%;
-  text-align: left;
-  margin-left: 10% !important;
-}
 
 
 
@@ -5293,13 +5226,7 @@ p.text-contact2-last {
     margin-left: 20% !important; /* Margen izquierdo */
   }
 
-  p.text-contact2 {
-    font-size: 0.85rem !important; /* Tamaño de fuente para pantallas grandes */
-  }
 
-  p.text-contact2-last {
-    font-size: 0.85rem !important; /* Tamaño de fuente para pantallas grandes */
-  }
 
   .contact-info {
     /* background-color: aqua !important; */
@@ -5329,25 +5256,10 @@ p.text-contact2-last {
   padding-left: 15px;
   margin-left: 25% !important ;
   /* background-color: coral; */
+  display: flex;
+  flex-direction: column;
 }
 
-p.text-contact2 {
-  font-size: 0.7rem; /* Tamaño de fuente para móviles */
-  color: #676565;
-  margin-bottom: 0;
-  text-align: left;
-  margin-left: 10%;
-  color: #b9aeae !important;
-}
-
-p.text-contact2-last {
-  font-size: 0.7rem; /* Tamaño de fuente para móviles */
-  color: #676565;
-  margin-bottom: 6%;
-  text-align: left;
-  margin-left: 10%;
-  color: #b9aeae !important;
-}
 
 .sidebar {
   top: 0;
@@ -5392,4 +5304,57 @@ p.text-contact2-last {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 0.7rem;
   color: #949494;
+}
+
+
+
+.text-contact1,
+.text-contact2,
+.text-contact3,
+.text-contact4,
+.text-contact5,
+.text-contact6 {
+
+    font-size: 1.2rem;
+
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.text-contact1,
+.text-contact2 {
+  color: #9d9d9c;
+
+  font-weight:100;
+
+}
+
+.text-contact3 {
+  color: #b3b2b2;
+}
+
+.text-contact4,
+.text-contact5 {
+  color: #9d9d9c;
+}
+
+.text-contact6 {
+  color: #c2c2c1;
+}
+
+
+
+/* iamgen respo */
+.responsive-image {
+  width: 40%;
+  height: auto;
+
+  margin-right: 1rem;
+}
+
+@media (min-width: 992px) {
+  .responsive-image {
+    width: 40%;
+  }
 }
