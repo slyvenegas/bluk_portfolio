@@ -5358,3 +5358,10 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
     width: 40%;
   }
 }
+
+
+.tmpHome {
+  color: #9d9d9c;
+  font-size: 0.7rem;
+  font-family: 'Barlow', sans-serif;
+}
