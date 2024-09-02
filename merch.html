@@ -56,60 +56,101 @@
 
   <div class="container div-custom-merch">
 
-    <div class="">
-      <div class="row">
-        <div class="">
-          <div class="">
-            <a href="/images/merch/01/T_SHIRT_1.jpg"><img src="/images/merch/01/T_SHIRT_1.jpg" alt="Image"
-                class=""></a>
-            <a href="/images/merch/01/T_SHIRT_2.jpg"><img src="/images/merch/01/T_SHIRT_2.jpg" alt="Image"
-                class=""></a>
+    <div class="slider-container">
+      <div class="slider">
+        <input type="radio" name="slide" id="slide1" checked>
+        <input type="radio" name="slide" id="slide2">
+
+        <div class="slides">
+          <div class="slide" id="slide-img1">
+            <a href="/images/merch/01/T_SHIRT_1.jpg">
+              <img src="/images/merch/01/T_SHIRT_1.jpg" alt="Image">
+            </a>
           </div>
-          <p class="price-text">150.000 COP</p>
+          <div class="slide" id="slide-img2">
+            <a href="/images/merch/01/T_SHIRT_2.jpg">
+              <img src="/images/merch/01/T_SHIRT_2.jpg" alt="Image">
+            </a>
+          </div>
         </div>
-        <div class="">
-          <div class="">
-            <a href="/images/merch/02/T_SHIRT_3.jpg"><img src="/images/merch/02/T_SHIRT_3.jpg" alt="Image"
-                class=""></a>
-            <a href="/images/merch/02/T_SHIRT_4.jpg"><img src="/images/merch/02/T_SHIRT_4.jpg" alt="Image"
-                class=""></a>
-          </div>
-          <p class="price-text">150.000 COP</p>
+
+        <div class="navigation">
+          <label for="slide1" class="prev">&#10094;</label>
+          <label for="slide2" class="next">&#10095;</label>
         </div>
       </div>
+      <p class="price-text">150.000 COP</p>
     </div>
+
+    <div class="slider-container">
+      <div class="slider">
+        <input type="radio" name="slide" id="slide3" checked>
+        <input type="radio" name="slide" id="slide4">
+
+        <div class="slides">
+          <div class="slide" id="slide-img3">
+            <a href="/images/merch/02/T_SHIRT_3.jpg">
+              <img src="/images/merch/02/T_SHIRT_3.jpg" alt="Image">
+            </a>
+          </div>
+          <div class="slide" id="slide-img4">
+            <a href="/images/merch/02/T_SHIRT_4.jpg">
+              <img src="/images/merch/02/T_SHIRT_4.jpg" alt="Image">
+            </a>
+          </div>
+        </div>
+
+        <div class="navigation">
+          <label for="slide3" class="prev">&#10094;</label>
+          <label for="slide4" class="next">&#10095;</label>
+        </div>
+      </div>
+      <p class="price-text">150.000 COP</p>
+    </div>
+
+
+
+
+    <div class="container pt-5 pb-5 mb-5 border-bottom mx-auto">
+      <div class="slider-container">
+        <div class="slider">
+          <input type="radio" name="slide4" id="slide4-1" checked>
+          <input type="radio" name="slide4" id="slide4-2">
+          <div class="slides">
+            <div class="slide">
+              <a href="/images/merch/04/T_SHIRT_7.jpg">
+                <img src="/images/merch/04/T_SHIRT_7.jpg" alt="Image">
+              </a>
+            </div>
+            <div class="slide">
+              <a href="/images/merch/04/T_SHIRT_8.jpg">
+                <img src="/images/merch/04/T_SHIRT_8.jpg" alt="Image">
+              </a>
+            </div>
+          </div>
+          <div class="navigation">
+            <label for="slide4-1" class="prev">&#10094;</label>
+            <label for="slide4-2" class="next">&#10095;</label>
+          </div>
+        </div>
+        <p class="price-text">210.000 COP</p>
+      </div>
+    </div>
+
 
 
     <div class="container pt-5 pb-5 mb-5 border-bottom mx-auto">
       <div class="row">
         <div class="">
           <div class="">
-            <a href="/images/merch/04/T_SHIRT_7.jpg"><img src="/images/merch/04/T_SHIRT_7.jpg" alt="Image"
-                class=""></a>
-            <a href="/images/merch/04/T_SHIRT_8.jpg"><img src="/images/merch/04/T_SHIRT_8.jpg" alt="Image"
-                class=""></a>
-          </div>
-          <p class="price-text">210.000 COP</p>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="container pt-5 pb-5 mb-5 border-bottom mx-auto">
-      <div class="row">
-        <div class="">
-          <div class="">
-            <a href="/images/merch/03/T_SHIRT_5.jpg"><img src="/images/merch/03/T_SHIRT_5.jpg" alt="Image"
-                class=""></a>
-            <a href="/images/merch/03/T_SHIRT_6.jpg"><img src="/images/merch/03/T_SHIRT_6.jpg" alt="Image"
-                class=""></a>
+            <a href="/images/merch/03/T_SHIRT_5.jpg"><img src="/images/merch/03/T_SHIRT_5.jpg" alt="Image" class=""></a>
+            <a href="/images/merch/03/T_SHIRT_6.jpg"><img src="/images/merch/03/T_SHIRT_6.jpg" alt="Image" class=""></a>
           </div>
           <p class="price-text">150.000 COP</p>
         </div>
         <div class="">
           <div class="">
-            <a href="/images/merch/05/T_SHIRT_9.jpg"><img src="/images/merch/05/T_SHIRT_9.jpg" alt="Image"
-                class=""></a>
+            <a href="/images/merch/05/T_SHIRT_9.jpg"><img src="/images/merch/05/T_SHIRT_9.jpg" alt="Image" class=""></a>
             <a href="/images/merch/05/T_SHIRT_10.jpg"><img src="/images/merch/05/T_SHIRT_10.jpg" alt="Image"
                 class=""></a>
           </div>
@@ -260,7 +301,9 @@
   <script src="js/jquery-migrate-3.0.0.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
+
+
+
   <script src="js/aos.js"></script>
   <script src="js/imagesloaded.pkgd.js"></script>
   <script src="js/isotope.pkgd.min.js"></script>
