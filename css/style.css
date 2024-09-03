@@ -5437,7 +5437,7 @@ input[type="radio"] {
   transform: translateX(0);
 }
 
-#slide19:checked ~ .slides {
+#slide10:checked ~ .slides {
   transform: translateX(-100%);
 }
 
@@ -5518,7 +5518,7 @@ input[type="radio"] {
 .navigation label {
   cursor: pointer;
   font-size: 24px;
-  color: rgb(0, 0, 0);
+  color: rgb(173 173 173 / 59%);
   background-color: rgba(219, 22, 22, 0);
   padding: 10px;
   user-select: none;
@@ -5530,7 +5530,16 @@ input[type="radio"] {
 }
 
 .price-text {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
-  font-size: 10px;
-  margin-top: 10px;
+  font-size: 12px;
+  /* margin-top: 10px; */
+  margin-right:19%;
+}
+
+.description-text {
+  font-family: 'Barlow', sans-serif;
+  text-align: center;
+  font-size: 0.6rem;
+  color: rgba(35, 33, 33, 0.96);
 }
