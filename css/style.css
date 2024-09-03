@@ -5425,6 +5425,87 @@ input[type="radio"] {
   transform: translateX(-100%);
 }
 
+#slide5:checked ~ .slides {
+  transform: translateX(0);
+}
+
+#slide6:checked ~ .slides {
+  transform: translateX(-100%);
+}
+
+#slide9:checked ~ .slides {
+  transform: translateX(0);
+}
+
+#slide19:checked ~ .slides {
+  transform: translateX(-100%);
+}
+
+#slide11:checked ~ .slides {
+  transform: translateX(0);
+}
+
+#slide12:checked ~ .slides {
+  transform: translateX(-100%);
+}
+
+#slide13:checked ~ .slides {
+  transform: translateX(0);
+}
+
+#slide14:checked ~ .slides {
+  transform: translateX(-100%);
+}
+
+#slide15:checked ~ .slides {
+  transform: translateX(0);
+}
+
+#slide16:checked ~ .slides {
+  transform: translateX(-100%);
+}
+
+#slide17:checked ~ .slides {
+  transform: translateX(0);
+}
+
+#slide18:checked ~ .slides {
+  transform: translateX(-100%);
+}
+
+#slide19:checked ~ .slides {
+  transform: translateX(0);
+}
+
+#slide20:checked ~ .slides {
+  transform: translateX(-100%);
+}
+
+#slide21:checked ~ .slides {
+  transform: translateX(0);
+}
+
+#slide22:checked ~ .slides {
+  transform: translateX(-100%);
+}
+
+#slide23:checked ~ .slides {
+  transform: translateX(0);
+}
+
+#slide24:checked ~ .slides {
+  transform: translateX(-100%);
+}
+
+#slide25:checked ~ .slides {
+  transform: translateX(0);
+}
+
+#slide26:checked ~ .slides {
+  transform: translateX(-100%);
+}
+
+
 .navigation {
   position: absolute;
   top: 50%;
