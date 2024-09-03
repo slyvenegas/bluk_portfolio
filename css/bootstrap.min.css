@@ -553,6 +553,7 @@ pre code {
   .container-sm,
   .container-xl {
     max-width: 1140px;
+    margin-left: 12%;
   }
 }
 .row {
