@@ -5374,6 +5374,7 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
   position: relative;
   width: 100%;
   margin: 20px 0;
+  max-width: 600px;
 }
 
 .slider {
@@ -5413,6 +5414,14 @@ input[type="radio"] {
 }
 
 #slide4:checked ~ .slides {
+  transform: translateX(-100%);
+}
+
+#slide7:checked ~ .slides {
+  transform: translateX(0);
+}
+
+#slide8:checked ~ .slides {
   transform: translateX(-100%);
 }
 
