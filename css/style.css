@@ -5371,10 +5371,12 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
 /* test */
 
 .slider-container {
+
   position: relative;
   width: 100%;
   margin: auto;
   max-width: 600px;
+
 }
 
 .slider {
@@ -5539,7 +5541,50 @@ input[type="radio"] {
 
 .description-text {
   font-family: 'Barlow', sans-serif;
-  text-align: center;
+  text-align: justify;
   font-size: 0.6rem;
-  color: rgba(35, 33, 33, 0.96);
+  color: rgb(91 91 91 / 96%)  ;
+  font-weight: 600;
+
+}
+
+
+
+
+/* ******** */
+
+
+@media (min-width: 540px) {
+
+  .description-text {
+    text-align: justify;
+  }
+
+}
+
+
+@media (min-width: 720px) {
+
+  .description-text {
+    text-align: justify;
+  }
+
+}
+
+
+
+
+@media (min-width: 992px) {
+
+  .description-text {
+    text-align: justify;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .description-text {
+    text-align: justify;
+  }
+
 }
