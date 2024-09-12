@@ -5073,10 +5073,19 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
   .div-custom-merch {
     /* background-color: #c5e315; */
     margin-top: 9.5%;
-    margin-left: 13.4%;
+    margin-left: 8.5%;
+    margin-bottom: 15%;
   }
 
 
+}
+
+@media (min-width: 1080px) {
+  .div-custom-merch {
+    /* background-color: #c5e315; */
+    margin-top: 9.5%;
+    margin-left: 28.5%;
+  }
 }
 /* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
 
@@ -5371,18 +5380,27 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
 
 /* test */
 
-.slider-container {
+/* Contenedor de los sliders */
+.sliders-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+  margin-bottom: 20px;
+}
 
+/* Contenedor de cada slider */
+.slider-container {
   position: relative;
   width: 100%;
+  max-width: 48%; /* Ajusta para que estén en fila */
   margin: auto;
-  max-width: 600px;
-
 }
 
 .slider {
   position: relative;
-  width: 80%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -5398,11 +5416,13 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
 
 .slide img {
   width: 100%;
+  transition: transform 0.3s ease;
 }
 
 input[type="radio"] {
   display: none;
 }
+
 
 #slide1:checked ~ .slides {
   transform: translateX(0);
@@ -5521,7 +5541,7 @@ input[type="radio"] {
 .navigation label {
   cursor: pointer;
   font-size: 12px;
-  color: rgb(206, 201, 201);
+  color: rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
   /* padding: 2px; */
   user-select: none;
@@ -5532,60 +5552,67 @@ input[type="radio"] {
   background-color: rgb(0, 0, 0);
 }
 
-.price-text {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  text-align: center;
-  font-size: 12px;
-  /* margin-top: 10px; */
-  margin-right:19%;
-}
-
-.description-text {
+/* Texto de descripción y precio */
+.description-text, .price-text {
   font-family: 'Barlow', sans-serif;
-  text-align: justify;
-  font-size: 0.6rem;
-  color: rgb(91 91 91 / 96%)  ;
+  text-align: center;
+  font-size: 0.65rem;
+  color: rgb(91 91 91 / 96%);
   font-weight: 600;
-
 }
 
+.price-text {
+  font-size: 1rem;
+}
 
+/* Efecto de lupa */
+.slider-container .slide img {
+  transition: transform 0.6s ease;
+  cursor: zoom-in;
+}
 
+.slider-container .slide img:hover {
+  transform: scale(2.5); /* Zoom */
+  cursor: zoom-in;
+}
 
-/* ******** */
-
-
-@media (min-width: 540px) {
-
-  .description-text {
-    text-align: center;
+/* Responsividad */
+@media (max-width: 768px) {
+  .sliders-wrapper {
+    flex-direction: column;
   }
 
-}
-
-
-@media (min-width: 720px) {
-
-  .description-text {
-    text-align: center;
+  .slider-container {
+    max-width: 100%;
   }
 
-}
-
-
-
-
-@media (min-width: 992px) {
-
-  .description-text {
-    text-align: center;
+  .description-text, .price-text {
+    font-size: 0.7rem;
   }
 }
 
-@media (min-width: 1200px) {
-
-  .description-text {
-    text-align: center;
+@media (max-width: 480px) {
+  .description-text, .price-text {
+    font-size: 0.6rem;
   }
+}
 
+/* ---------------- */
+
+@media (max-width: 540px) {
+  .bodyMerch {
+    margin-right: 13%;
+  }
+}
+
+@media (max-width: 720px) {
+  .bodyMerch {
+    margin-right: 18%;
+  }
+}
+
+@media (max-width: 992px) {
+  .bodyMerch {
+    margin-right: 13%;
+  }
 }
