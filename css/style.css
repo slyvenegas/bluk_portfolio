@@ -5566,29 +5566,44 @@ input[type="radio"] {
 }
 
 
-/* Efecto de lupa solo en computadoras */
 @media (min-width: 1024px) {
-  /* Efecto de lupa con zoom en el punto del mouse */
   .slider-container .slide img {
     transition: transform 1s ease, opacity 0.4s ease;
     cursor: zoom-in;
-    transform-origin: center; /* Punto de inicio del transform-origin, se cambiará dinámicamente */
+    transform-origin: center;
   }
 
   .slider-container .slide img:hover {
-    transform: scale(3.5); /* Zoom al hacer hover */
-    opacity: 0.9; /* Transparencia suave */
+    transform: scale(3.5);
+    opacity: 0.9;
     cursor: zoom-out;
   }
 }
 
-/* Desactiva cualquier transformación en pantallas más pequeñas */
+
+/* Efecto panorámico solo en móviles */
 @media (max-width: 1023px) {
+  .slider-container {
+    overflow: hidden; /* Oculta la parte de la imagen que no está visible */
+  }
+
+  .slider-container .slide {
+    overflow: hidden; /* Asegura que el contenido no se desborde */
+  }
+
   .slider-container .slide img {
-    transform: none;
-    cursor: default; /* Quita el cursor de lupa en móviles */
+    cursor: grab; /* Cambia el cursor para indicar que se puede arrastrar */
+    transition: transform 0.3s ease; /* Suave transición en el movimiento */
+    max-width: none; /* Permitir que la imagen sea más grande que su contenedor */
+    width: 100%; /* Ajusta la imagen para que ocupe el 100% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
+
+  .slider-container .slide img:active {
+    cursor: grabbing; /* Cambio de cursor mientras se arrastra */
   }
 }
+
 
 
 

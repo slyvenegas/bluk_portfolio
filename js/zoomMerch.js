@@ -14,3 +14,4 @@ document.querySelectorAll('.slider-container .slide img').forEach((img) => {
     img.style.transformOrigin = 'center';
   });
 });
+
