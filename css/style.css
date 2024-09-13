@@ -5581,29 +5581,12 @@ input[type="radio"] {
 }
 
 
-/* Efecto panorámico solo en móviles */
 @media (max-width: 1023px) {
-  .slider-container {
-    overflow: hidden; /* Oculta la parte de la imagen que no está visible */
-  }
-
-  .slider-container .slide {
-    overflow: hidden; /* Asegura que el contenido no se desborde */
-  }
-
   .slider-container .slide img {
-    cursor: grab; /* Cambia el cursor para indicar que se puede arrastrar */
-    transition: transform 0.3s ease; /* Suave transición en el movimiento */
-    max-width: none; /* Permitir que la imagen sea más grande que su contenedor */
-    width: 100%; /* Ajusta la imagen para que ocupe el 100% del ancho del contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
-  }
-
-  .slider-container .slide img:active {
-    cursor: grabbing; /* Cambio de cursor mientras se arrastra */
+    transform: none;
+    cursor: default;
   }
 }
-
 
 
 
