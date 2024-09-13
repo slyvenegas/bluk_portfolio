@@ -5558,22 +5558,23 @@ input[type="radio"] {
   text-align: center;
   font-size: 0.65rem;
   color: #000000c2;
-  font-weight: 600;
+  font-weight: 100;
 }
 
 .price-text {
   font-size: 1rem;
 }
-
-/* Efecto de lupa */
+/* Efecto de lupa con zoom en el punto del mouse */
 .slider-container .slide img {
-  transition: transform 0.6s ease;
+  transition: transform 0.4s ease, opacity 0.4s ease;
   cursor: zoom-in;
+  transform-origin: center; /* Punto de inicio del transform-origin, se cambiará dinámicamente */
 }
 
 .slider-container .slide img:hover {
-  transform: scale(2.5); /* Zoom */
-  cursor: zoom-in;
+  transform: scale(3.5); /* Zoom al hacer hover */
+  opacity: 0.9; /* Transparencia suave */
+  cursor: zoom-out;
 }
 
 /* Responsividad */
