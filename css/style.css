@@ -5564,18 +5564,33 @@ input[type="radio"] {
 .price-text {
   font-size: 1rem;
 }
-/* Efecto de lupa con zoom en el punto del mouse */
-.slider-container .slide img {
-  transition: transform 0.4s ease, opacity 0.4s ease;
-  cursor: zoom-in;
-  transform-origin: center; /* Punto de inicio del transform-origin, se cambiará dinámicamente */
+
+
+/* Efecto de lupa solo en computadoras */
+@media (min-width: 1024px) {
+  /* Efecto de lupa con zoom en el punto del mouse */
+  .slider-container .slide img {
+    transition: transform 1s ease, opacity 0.4s ease;
+    cursor: zoom-in;
+    transform-origin: center; /* Punto de inicio del transform-origin, se cambiará dinámicamente */
+  }
+
+  .slider-container .slide img:hover {
+    transform: scale(3.5); /* Zoom al hacer hover */
+    opacity: 0.9; /* Transparencia suave */
+    cursor: zoom-out;
+  }
 }
 
-.slider-container .slide img:hover {
-  transform: scale(3.5); /* Zoom al hacer hover */
-  opacity: 0.9; /* Transparencia suave */
-  cursor: zoom-out;
+/* Desactiva cualquier transformación en pantallas más pequeñas */
+@media (max-width: 1023px) {
+  .slider-container .slide img {
+    transform: none;
+    cursor: default; /* Quita el cursor de lupa en móviles */
+  }
 }
+
+
 
 /* Responsividad */
 @media (max-width: 768px) {
