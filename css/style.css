@@ -4786,8 +4786,9 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
   padding-right: 10%;
   padding-left: 17%;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 16%;
   /* background-color: #d938ae; */
+  margin-top: 2%;
   }
 
   .text-footer {
