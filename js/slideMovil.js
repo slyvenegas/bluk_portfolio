@@ -1,51 +1,29 @@
-// JavaScript para arrastrar imágenes en móviles
-document.querySelectorAll('.slider-container .slide img').forEach((img) => {
-    let isDragging = false;
-    let startX, scrollLeft;
-  
-    // Evento para iniciar el arrastre
-    img.addEventListener('mousedown', (e) => {
-      isDragging = true;
-      startX = e.pageX - img.offsetLeft;
-      scrollLeft = img.offsetLeft;
-      img.style.cursor = 'grabbing';
+// Selecciona el contenedor del slider y las slides
+const sliders = document.querySelectorAll('.slider-container .slides');
+
+// Recorre todos los sliders
+sliders.forEach((slider) => {
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    slider.addEventListener('touchstart', (e) => {
+        isDown = true;
+        slider.classList.add('active');
+        startX = e.touches[0].pageX - slider.offsetLeft;
+        scrollLeft = slider.scrollLeft;
     });
-  
-    img.addEventListener('touchstart', (e) => {
-      isDragging = true;
-      startX = e.touches[0].pageX - img.offsetLeft;
-      scrollLeft = img.offsetLeft;
+
+    slider.addEventListener('touchend', () => {
+        isDown = false;
+        slider.classList.remove('active');
     });
-  
-    // Evento para el movimiento del arrastre
-    img.addEventListener('mousemove', (e) => {
-      if (!isDragging) return;
-      e.preventDefault();
-      const x = e.pageX - img.offsetLeft;
-      const walk = (x - startX) * 1.5; // Ajusta la velocidad del arrastre
-      img.style.transform = `translateX(${scrollLeft + walk}px)`;
+
+    slider.addEventListener('touchmove', (e) => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.touches[0].pageX - slider.offsetLeft;
+        const walk = (x - startX) * 2; // La velocidad del swipe
+        slider.scrollLeft = scrollLeft - walk;
     });
-  
-    img.addEventListener('touchmove', (e) => {
-      if (!isDragging) return;
-      const x = e.touches[0].pageX - img.offsetLeft;
-      const walk = (x - startX) * 1.5;
-      img.style.transform = `translateX(${scrollLeft + walk}px)`;
-    });
-  
-    // Evento para finalizar el arrastre
-    img.addEventListener('mouseup', () => {
-      isDragging = false;
-      img.style.cursor = 'grab';
-    });
-  
-    img.addEventListener('mouseleave', () => {
-      isDragging = false;
-      img.style.cursor = 'grab';
-    });
-  
-    img.addEventListener('touchend', () => {
-      isDragging = false;
-    });
-  });
-  
+});
