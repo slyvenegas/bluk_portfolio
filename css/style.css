@@ -4742,17 +4742,17 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
 }
 
 .container-work {
-  width: 93%;
+  width: 100%;
   /* padding-right: 15px; */
   padding-left: 23%;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 4%;
   /* background-color: #38b9d9; */
 }
 
 @media (min-width: 992px) {
   .grid .isotope-card {
-    width: 25%; /* Cambia el ancho para que sean cuatro columnas */
+    width: 28%; /* Cambia el ancho para que sean cuatro columnas */
     margin: 0 0 30px 0; /* Ajusta el margen entre columnas */
   }
 
@@ -4786,7 +4786,7 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
   padding-right: 10%;
   padding-left: 17%;
   margin-right: auto;
-  margin-left: 16%;
+  margin-left: 15%;
   /* background-color: #d938ae; */
   margin-top: 2%;
   }
@@ -5540,6 +5540,7 @@ input[type="radio"] {
   font-size: 0.65rem;
   color: #000000c2;
   font-weight: 100;
+  display: none;
 }
 
 .price-text {
@@ -5598,6 +5599,20 @@ input[type="radio"] {
   .bodyMerch {
     margin-right: 13%;
   }
+
+  .description-text {
+    display: block;
+  }
+
+  .container-clothes {
+    width: 100%;
+    /* padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 10%; */
+    /* background-color: #d938ae; */
+  }
+
 }
 
 @media (max-width: 720px) {
