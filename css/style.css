@@ -4396,6 +4396,15 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
   /* background-color: #38b9d9; */
 }
 
+.container-work2 {
+  width: 150%;
+  padding-right: 15px;
+  padding-left: 23%;
+  margin-right: auto;
+  margin-left: -7%;
+  /* background-color: #38b9d9; */
+}
+
 @media (min-width: 992px) {
   .grid .isotope-card {
     width: 25%; /* Cambia el ancho para que sean cuatro columnas */
@@ -4427,6 +4436,15 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
   margin-right: auto;
   margin-left: auto;
   /* background-color: #d938ae; */
+  }
+
+  .container-work2 {
+    width: 150%;
+    padding-right: 15px;
+    padding-left: 23%;
+    margin-right: auto;
+    margin-left: -7%;
+    /* background-color: #38b9d9; */
   }
 
 }
@@ -4743,10 +4761,19 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
 
 .container-work {
   width: 100%;
-  /* padding-right: 15px; */
+  padding-right: 15px;
   padding-left: 23%;
   margin-right: auto;
   margin-left: 4%;
+  /* background-color: #38b9d9; */
+}
+
+.container-work2 {
+  width: 150%;
+  padding-right: 15px;
+  padding-left: 23%;
+  margin-right: auto;
+  margin-left: -7%;
   /* background-color: #38b9d9; */
 }
 
@@ -4786,9 +4813,18 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
   padding-right: 10%;
   padding-left: 17%;
   margin-right: auto;
-  margin-left: 15%;
+  margin-left: auto;
   /* background-color: #d938ae; */
-  margin-top: 2%;
+  /* margin-top: 2%; */
+  }
+
+  .container-work2 {
+    width: 150%;
+    padding-right: 15px;
+    padding-left: 23%;
+    margin-right: auto;
+    margin-left: -7%;
+    /* background-color: #38b9d9; */
   }
 
   .text-footer {
