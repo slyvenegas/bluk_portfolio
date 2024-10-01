@@ -4199,7 +4199,7 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
     color: #0000006e !important;
   }
 
-  .row-contact-customers {
+bxx   .row-contact-customers {
     display: flex !important;
     flex-direction: column !important;
     flex-wrap: wrap !important;
@@ -4842,7 +4842,7 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
     /* background-color: rgb(16, 207, 175)  !important; */
     margin-left: -40%;
     max-width: 69%;
-    margin-right: 0;
+    margin-right: 19px !important;
   }
 
   .div-icons-sidebar {
