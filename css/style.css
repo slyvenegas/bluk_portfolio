@@ -5157,10 +5157,10 @@ bxx   .row-contact-customers {
     height: auto;
     padding-top: 20px;
     text-align: center;
-    margin-top: 23%;
+    margin-top: 12%;
     /* background-color: blue; */
+    margin-left: 7%;
 }
-
 
 .sidebar-customers {
   /* top: 50%; */
@@ -5177,7 +5177,6 @@ bxx   .row-contact-customers {
 }
 
 
-
 .links a.align-right {
   text-align: right;
   display: block;
@@ -5191,8 +5190,33 @@ bxx   .row-contact-customers {
   max-width: 56%;
 }
 
+.col-custom-hero {
+  position: relative;
+  width: 77%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 19%;
+  /* background-color: coral; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 30%;
 }
 
+}
+
+@media (min-width:768px) {
+  .col-custom-hero {
+    position: relative;
+    width: 77%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 23% !important;
+    /* background-color: coral; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 30%;
+}
+}
 
 @media (min-width: 992px) {
 
@@ -5263,7 +5287,21 @@ bxx   .row-contact-customers {
   }
 }
 
-@media (min-width: 1400) {
+@media (min-width: 1200px) {
+  .col-custom-hero {
+    position: relative;
+    width: 77%;
+    padding-right: 15px;
+    padding-left: 15px  ;
+    margin-left: 30% !important;
+    /* background-color: coral; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+  }
+}
+
+@media (min-width: 1400px) {
   .col-custom-hero {
     position: relative;
     width: 77%;
@@ -5276,29 +5314,23 @@ bxx   .row-contact-customers {
   }
 }
 
-@media (min-width: 1200) {
-  .col-custom-hero {
-    position: relative;
-    width: 77%;
-    padding-right: 15px;
-    padding-left: 15px  ;
-    margin-left: 26%;
-    background-color: coral;
-    display: flex;
-    flex-direction: column;
-  }
-}
+
+
+
 
 .col-custom-hero {
   position: relative;
   width: 77%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-left: 28%;
+  margin-left: 19%;
   /* background-color: coral; */
   display: flex;
   flex-direction: column;
 }
+
+
+
 
 
 .sidebar {
@@ -5319,7 +5351,6 @@ bxx   .row-contact-customers {
   top: 20%;
 }
 
-/* Estilo adicional para que la imagen ocupe todo el ancho sin espaciado horizontal */
 .custom-sidebar img {
   width: 100%;
   height: auto;
