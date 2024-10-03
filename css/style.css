@@ -4090,19 +4090,6 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
 
 
 /* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
-/* CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG CUSTOMER PAG */
 
 .div-icons-sidebar-cus {
   display: -ms-flexbox !important;
@@ -4165,8 +4152,8 @@ box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Sombra sutil para destacar */
   }
 
   .col-custom-hero {
-    width: 70% !important; /* Ancho del contenedor */
-    margin-left: 15% !important; /* Margen izquierdo */
+    width: 70%; /* Ancho del contenedor */
+    margin-left: 15%; /* Margen izquierdo */
   }
 
 
@@ -4219,8 +4206,8 @@ bxx   .row-contact-customers {
   }
 
   .col-custom-hero {
-    width: 60% !important; /* Ancho del contenedor */
-    margin-left: 20% !important; /* Margen izquierdo */
+    width: 60% ; /* Ancho del contenedor */
+    margin-left: 20% ; /* Margen izquierdo */
   }
 
 
@@ -5249,8 +5236,8 @@ bxx   .row-contact-customers {
   }
 
   .col-custom-hero {
-    width: 60% !important; /* Ancho del contenedor */
-    margin-left: 20% !important; /* Margen izquierdo */
+    width: 75%; /* Ancho del contenedor */
+    margin-left: 23%; /* Margen izquierdo */
   }
 
 
@@ -5276,12 +5263,38 @@ bxx   .row-contact-customers {
   }
 }
 
+@media (min-width: 1400) {
+  .col-custom-hero {
+    position: relative;
+    width: 77%;
+    padding-right: 15px;
+    padding-left: 15px  ;
+    margin-left: 25%;
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1200) {
+  .col-custom-hero {
+    position: relative;
+    width: 77%;
+    padding-right: 15px;
+    padding-left: 15px  ;
+    margin-left: 26%;
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .col-custom-hero {
   position: relative;
   width: 77%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-left: 16% !important ;
+  margin-left: 16%;
   /* background-color: coral; */
   display: flex;
   flex-direction: column;
