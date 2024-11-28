@@ -5341,7 +5341,7 @@ bxx   .row-contact-customers {
     padding-right: 15px;
     padding-left: 15px  ;
     margin-left: 25%;
-    background-color: coral;
+    /* background-color: coral; */
     display: flex;
     flex-direction: column;
   }
