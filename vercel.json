@@ -1,8 +1,0 @@
-{
-    "rewrites": [
-        {
-            "source": "/merch/:path*",
-            "destination": "https://merch.blukstudio.com/:path*"
-        }
-    ]
-}
